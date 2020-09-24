@@ -1,0 +1,11 @@
+.jumbotron
+{
+    text-align: center;
+    color: white;
+    background-image: url(Episode%2018.jpeg);
+    background-repeat: no-repeat;
+}
+.container
+{
+    width: 100%;
+}
