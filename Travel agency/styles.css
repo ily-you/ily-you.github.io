@@ -1,0 +1,299 @@
+/* GENERAL*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif, serif;
+    font-size: 15px;
+}
+h2
+{
+    color: brown;
+    font-size: 55px;
+}
+h1
+{
+    font-size: 45px;
+    font-family: serif;
+    color: brown;
+}
+h4
+{
+    font-size: 24px;
+    color: brown;
+        
+}
+h3
+{
+    font-size: 30px;
+    color: brown;
+}
+p
+{
+    line-height: 20px;
+    color: rosybrown;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: brown;
+    
+}
+.wrapper
+{
+    margin: 0 auto;
+    width: 940px;
+    padding: 0 10px;
+}
+.orange
+{
+    color: orange;
+}
+.clear
+{ 
+   clear: both;
+}
+small
+{ 
+font-style: italic;
+font-size: 10px;
+}
+/* HEADER */
+header
+{
+   height: 120px;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li
+{ 
+  float: left;
+  display: inline-block;
+}
+header nav ul li a
+{
+    
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/*MAIN-IMAGE*/
+
+#main-image
+{
+    height: 580px;
+    background: url('main.jpg') center;
+}
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+.button-1
+{
+    display: block;
+    border-radius: 3px;
+    height: 50px;
+    width: 120px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+}
+.button-1:hover
+{
+    background: blue;
+}
+/*step*/
+#steps p
+{
+    margin-bottom: 20px;
+}
+#steps ul
+{
+    margin: 80px 0;
+}
+#steps ul li
+{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+#steps h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#step-1
+{
+    background: url('steps-icon-1.png') no-repeat top center;
+}
+#step-2
+{
+    background: url('steps-icon-2.png') no-repeat top center;
+}
+#step-3
+{
+    background: url('steps-icon-3.png') no-repeat top center;
+}
+/*posibilities*/
+.button-2
+{
+    display: block;
+    border-radius: 3px;
+    height: 30px;
+    width: 90px;
+    background-color: orange;
+    color: white;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-2:hover
+{
+    background: blue;
+}
+.button-3
+{
+    display: block;
+    border-radius: 3px;
+    height: 30px;
+    width: 90px;
+    background-color: orange;
+    color: white;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-3:hover
+{
+    background: blue;
+}
+
+#posibilities article
+{
+    width: 400px;
+    height: 200px;
+    
+    float: left;
+    border-radius: 10px;
+}
+#posibilities article:first-child
+{
+    margin-right: 360px;
+    margin-left: 50px;
+}
+.overlay
+{
+  background: white;
+  height: 100%;
+  opacity: 0.8;
+  width: 190px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  
+}
+article h4
+{
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+    
+    text-align: center;
+}
+/*Contact*/
+#contact
+{
+    padding: 250px 0;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#contact h3
+{
+    border-bottom: 1px solid #02b8dd;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+}
+#contact h4{
+    padding-top: 40px;
+}
+form
+{
+    margin: 60px 0 20px 0;
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #777;
+}
+input
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right:20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-4
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #02d8dd;
+    border-radius:3px;
+}
+.button-4:hover
+{
+    color:#fff;
+    background-color: #444;
+}
+/*FOOTER*/
+footer 
+{
+    height: 180px;
+    background-color: #444;
+    padding: 10px;
+}
+footer h1
+{
+    color:whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    
+    color: #777;
+    
+}
